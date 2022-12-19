@@ -1,5 +1,6 @@
 // import images
 import Hero_person from "./assets/Hero/person.png";
+import Pokemon from "./assets/hero/pokemon.png"
 
 import figma from "./assets/Skills/figma.png";
 import sketch from "./assets/Skills/sketch.png";
@@ -61,14 +62,14 @@ export const content = {
     firstName: "SAMIR",
     LastName: "JABIB",
     btnText: "Hire Me",
-    image: Hero_person,
+    image: Pokemon,
     hero_content: [
       {
-        count: "8+",
+        count: "1+",
         text: "Years of Experinse in Web development",
       },
       {
-        count: "20+",
+        count: "8+",
         text: "Projects Worked in my career",
       },
     ],
