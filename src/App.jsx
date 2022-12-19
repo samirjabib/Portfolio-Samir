@@ -25,12 +25,12 @@ function App() {
     <div>
         <Navbar/>
         <Hero/>
-        <Skils/>
+        {/* <Skils/>
         <Projects/>
         <Service/>
         <Hireme/>
         <Contact/>
-        <Footer/>
+        <Footer/> */}
     </div>
   )
 }
