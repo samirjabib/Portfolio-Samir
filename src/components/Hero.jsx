@@ -7,7 +7,7 @@ export const Hero = () => {
     const { hero } = content;
 
     return(
-        <section id="home" className="border border-black">
+        <section id="home" className="overflow-hidden">
             <div className="min-h-screen border-14 bg-red-500 border-black">
 
                 {/* Name */}
