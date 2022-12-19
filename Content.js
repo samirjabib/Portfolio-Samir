@@ -1,4 +1,3 @@
-
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
