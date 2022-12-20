@@ -80,8 +80,8 @@ export const Skils = () => {
 
             {/* CONTENT */}
             <div className="md:container text-center ">
-                <h2 className="title" >{skills.title}</h2>
-                <h4 className="subtitle">{skills.subtitle}</h4>
+                <h2 className="title" data-aos="fade-left">{skills.title}</h2>
+                <h4 className="subtitle" data-aos="fade-left">{skills.subtitle}</h4>
             </div>
 
             <br/>
@@ -91,9 +91,10 @@ export const Skils = () => {
                     return(
                         <div
                             key={index}
+                            data-aos="fade-down"
+                            data-aos-delay={index * 400}
                             className="bg-white sm:cursor-pointer relative group w-full flex items-center border-2  gap-5 p-5 max-w-sm
                             rounded-md  border-slate-200
-                            
                             "
                             
                         >
