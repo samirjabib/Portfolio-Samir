@@ -45,20 +45,21 @@ export const content = {
       icon: BiUser,
     },
     {
-      link: "#services",
-      icon: RiServiceLine,
-    },
-    {
       link: "#projects",
       icon: RiProjectorLine,
     },
+    {
+      link: "#services",
+      icon: RiServiceLine,
+    },
+  
     {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
     },
   ],
   hero: {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     firstName: "SAMIR",
     LastName: "JABIB",
     btnText: "Hire Me",
@@ -78,11 +79,29 @@ export const content = {
     title: "Skills",
     subtitle: "CURRENT STACK",
     skills_content: [
+      {
+        name: "Javascript",
+        para: "Lorem ipsum text  dummy",
+        logo: javascript,
+      },
    
       {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
         logo: nodejs,
+      },
+
+      {
+        name: "Html",
+        para: "Lorem ipsum text  dummy",
+        logo: html,
+      },
+
+      
+      {
+        name: "Css",
+        para: "Css",
+        logo: css,
       },
 
       {
@@ -92,29 +111,14 @@ export const content = {
       },
 
       {
-        name: "Node js",
+        name: "Github",
         para: "Lorem ipsum text  dummy",
         logo: github,
       },
 
-      {
-        name: "Html",
-        para: "Lorem ipsum text  dummy",
-        logo: html,
-      },
+   
 
-      {
-        name: "Node js",
-        para: "Css",
-        logo: css,
-      },
-
-      
-      {
-        name: "Javascript",
-        para: "Lorem ipsum text  dummy",
-        logo: javascript,
-      },
+     
 
 
 

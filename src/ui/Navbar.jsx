@@ -1,4 +1,5 @@
 import { HiMenuAlt2 } from "react-icons/hi";
+import Hamburger from 'hamburger-react'
 
 
 import { useState } from "react";
@@ -12,6 +13,7 @@ export const Navbar = () => {
     const { nav } = content;
     const [ showMenu, setShowMenu ] = useState(false);
     const [ active, setActive ] = useState(0);
+    const [isOpen, setOpen] = useState(false)
 
     return(
         <div className="border border-black w-full flex justify-center">
@@ -21,7 +23,7 @@ export const Navbar = () => {
                 className="sm:cursor-pointer fixed top-10 left-10 z-[999] rounded-lg bg-white/40 p-2"
                 onClick={() => setShowMenu(!showMenu)}
                 >
-                <HiMenuAlt2 size={34}/>
+                <Hamburger onToggle={toggled => setOpen(!isOpen)} />
             </div>
 
             {/* Nav Links */}

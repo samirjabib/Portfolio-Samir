@@ -46,7 +46,7 @@ export const Skils = () => {
 
 
     return(
-       <section className="min-h-fit bg-bg_light_primary py-12" id="skills">
+       <section className="min-h-fit bg-bg_light_primary py-12 " id="skills">
             <Modal
                 isOpen={modalIsOpen}
                 style={customStyles}
@@ -79,14 +79,14 @@ export const Skils = () => {
             </Modal>
 
             {/* CONTENT */}
-            <div className="md:container text-center ">
+            <div className="md:container text-center  ">
                 <h2 className="title" data-aos="fade-left">{skills.title}</h2>
                 <h4 className="subtitle" data-aos="fade-left">{skills.subtitle}</h4>
             </div>
 
             <br/>
 
-            <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex flex-wrap gap-4 justify-center md:container">
                 {skills.skills_content.map( (skill, index) => {
                     return(
                         <div
