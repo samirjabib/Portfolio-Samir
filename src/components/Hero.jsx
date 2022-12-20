@@ -36,7 +36,8 @@ export const Hero = () => {
                                     <div 
                                         className="flex items-center w-80 gap-5"
                                         data-aos="fade-down"
-                                        data-aos-delay="700"    
+                                        data-aos-delay="700"
+                                        key={index}
                                     >
                                         <h3>{heroContent.count}</h3>
                                         <p>{heroContent.text}</p>
