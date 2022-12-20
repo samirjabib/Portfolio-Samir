@@ -52,6 +52,29 @@ export const Skils = () => {
                 style={customStyles}
                 onRequestClose={onHandleModal}
             >
+                <div className="flex items-center gap-2">
+                    <img className="h-10" src={selectSkill?.logo} alt="..." />
+                    <h6>{selectSkill?.name}</h6>
+                    </div>
+                    <br />
+                    <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit, ame.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur</li>
+                    <li>
+                        Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
+                        beatae quos rem.
+                    </li>
+                    </ul>
+                    <br />
+                    <div className="flex justify-end">
+                    <button onClick={onHandleModal} className="btn">
+                        Close
+                    </button>
+                </div>
 
             </Modal>
 
