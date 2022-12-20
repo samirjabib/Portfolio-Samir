@@ -38,6 +38,7 @@ export const Navbar = () => {
                             href={navItem.link}
                             onClick={ () => setActive(index)}
                             className={`text-xl p-2.5 rounded-full sm:cursor-pointer`}
+                            key={index}
                         >
                             {createElement(navItem.icon)}
                         </a>

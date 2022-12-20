@@ -27,12 +27,9 @@ function App() {
         <Hero/>
         <Skils/>
         <Projects/>
-
-        {/* 
-        <Service/>
         <Hireme/>
         <Contact/>
-        <Footer/> */}
+        <Footer/>
     </div>
   )
 }

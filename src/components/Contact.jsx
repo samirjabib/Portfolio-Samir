@@ -1,7 +1,12 @@
+
+
+
+
 export const Contact = () => {
     return(
-        <div>
-            contact
-        </div>
+        <section>
+                Contact
+        </section>
+
     )
 };

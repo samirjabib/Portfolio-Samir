@@ -43,6 +43,7 @@ export const Projects = () => {
                                         key={index}
                                         className="  flex flex-col-reverse items-center justify-center h-fit
                                         "
+                                        data-aos="flip-left"
                                     >
 
                                         <img 
