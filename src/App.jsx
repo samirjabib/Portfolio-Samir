@@ -26,8 +26,9 @@ function App() {
         <Navbar/>
         <Hero/>
         <Skils/>
-        {/* 
         <Projects/>
+
+        {/* 
         <Service/>
         <Hireme/>
         <Contact/>

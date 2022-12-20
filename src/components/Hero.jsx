@@ -49,7 +49,7 @@ export const Hero = () => {
 
                 </div>
 
-                <div className="md:h-[37rem] h-96">
+                <div className="md:h-[37rem]">
                     <img
                         src={hero.image}
                         alt="..."

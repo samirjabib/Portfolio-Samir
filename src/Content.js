@@ -49,11 +49,6 @@ export const content = {
       icon: RiProjectorLine,
     },
     {
-      link: "#services",
-      icon: RiServiceLine,
-    },
-  
-    {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
     },
@@ -125,27 +120,7 @@ export const content = {
     ],
     icon: MdArrowForward,
   },
-  services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
-    service_content: [
-      {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
-      },
-      {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
-      },
-      {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
-      },
-    ],
-  },
+
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
