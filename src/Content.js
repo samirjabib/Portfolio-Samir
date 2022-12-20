@@ -2,12 +2,12 @@
 import Hero_person from "./assets/Hero/person.png";
 import Pokemon from "./assets/hero/pokemon.png"
 
-import figma from "./assets/Skills/figma.png";
-import sketch from "./assets/Skills/sketch.png";
-import ps from "./assets/Skills/ps.png";
+import html from "./assets/Skills/html.png";
+import css from "./assets/Skills/css.png";
+import javascript from "./assets/Skills/javascript.png"
 import reactjs from "./assets/Skills/react.png";
 import nodejs from "./assets/Skills/node.png";
-import python from "./assets/Skills/python.png";
+import github from "./assets/Skills/github.png";
 
 import services_logo1 from "./assets/Services/logo1.png";
 import services_logo2 from "./assets/Services/logo2.png";
@@ -76,38 +76,48 @@ export const content = {
   },
   skills: {
     title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    subtitle: "CURRENT STACK",
     skills_content: [
-      {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
-      },
+   
       {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
         logo: nodejs,
       },
-      {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
-      },
+
       {
         name: "React js",
         para: "Lorem ipsum text  dummy",
         logo: reactjs,
       },
+
       {
-        name: "Sketch",
+        name: "Node js",
         para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        logo: github,
       },
+
       {
-        name: "Python",
+        name: "Html",
         para: "Lorem ipsum text  dummy",
-        logo: python,
+        logo: html,
       },
+
+      {
+        name: "Node js",
+        para: "Css",
+        logo: css,
+      },
+
+      
+      {
+        name: "Javascript",
+        para: "Lorem ipsum text  dummy",
+        logo: javascript,
+      },
+
+
+
     ],
     icon: MdArrowForward,
   },
