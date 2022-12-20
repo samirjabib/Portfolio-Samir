@@ -182,19 +182,19 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "samirdev9669@gmail.com",
         icon: GrMail,
         link: "mailto:codeaprogram@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+57 3104540278",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/3104540278",
       },
       {
-        text: "codeaprogram",
+        text: "sanji.jsx",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/sanji.jsx/",
       },
     ],
   },
