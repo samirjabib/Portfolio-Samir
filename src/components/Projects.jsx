@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
+import { Link } from "react-router-dom";
 
 
 export const Projects = () => {
@@ -44,19 +45,21 @@ export const Projects = () => {
                                         className="  flex flex-col-reverse items-center justify-center h-fit
                                         "
                                         data-aos="flip-left"
-                                    >
-
-                                        <img 
-                                            src={content.image}
-                                            alt="content-image"
-                                            className="w-[100%] h-72 flex justify-end object-cover rounded-md shadow-md"
+                                    >  
+                                            <img 
+                                                src={content.image}
+                                                alt="content-image"
+                                                className="w-[100%] h-72 flex justify-end object-cover rounded-md shadow-md"
                                             />
-                                        <div className="flex flex-col gap-1 mt-6">
-                                            <h5 className="font-bold font-Poppins drop-shadow-primary ">{content.title}</h5>
-                                            <button className="font-bold text-gray self-center">
-                                                READ MORE
-                                            </button>
-                                        </div>
+
+                                            <div className="flex flex-col gap-1 mt-6">
+                                                <h5 className="font-bold font-Poppins drop-shadow-primary ">{content.title}</h5>
+                                                <button className="font-bold text-gray self-center">
+                                                    <a href="">
+                                                    READ MORE
+                                                    </a>
+                                                </button>
+                                            </div>
                                     </SwiperSlide>
                                 )
                             })
