@@ -1,4 +1,5 @@
 // import images
+import Pokemon from "./assets/hero/pokemon.png"
 
 import html from "./assets/Skills/html.png";
 import css from "./assets/Skills/css.png";
