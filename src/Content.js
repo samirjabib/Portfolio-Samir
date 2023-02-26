@@ -1,5 +1,5 @@
 // import images
-import ImageSamir from "./assets/hero/pokemon.png"
+import ImageSamir from "./assets/hero/image-samir.png"
 
 import html from "./assets/Skills/html.png";
 import css from "./assets/Skills/css.png";
