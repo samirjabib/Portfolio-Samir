@@ -1,14 +1,10 @@
-// import images
-import ImageSamir from "./assets/hero/image-samir.png"
-
 import html from "./assets/Skills/html.png";
 import css from "./assets/Skills/css.png";
-import javascript from "./assets/Skills/javascript.png"
+import javascript from "./assets/Skills/javascript.png";
 import reactjs from "./assets/Skills/react.png";
 import nodejs from "./assets/Skills/node.png";
 import github from "./assets/Skills/github.png";
-
-
+import imageSamir from "./assets/Hero/image-samir.png";
 
 import project1 from "./assets/projects/img1.png";
 import project2 from "./assets/projects/img2.png";
@@ -20,14 +16,13 @@ import avatar2 from "./assets/Testimonials/avatar2.png";
 import avatar3 from "./assets/Testimonials/avatar3.png";
 import avatar4 from "./assets/Testimonials/avatar4.png";
 
-
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
-import {  RiProjectorLine } from "react-icons/ri";
+import { RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 export const content = {
@@ -54,7 +49,7 @@ export const content = {
     firstName: "SAMIR",
     LastName: "JABIB",
     btnText: "Hire Me",
-    image: ImageSamir,
+    image: imageSamir,
     hero_content: [
       {
         count: "1+",
@@ -75,7 +70,7 @@ export const content = {
         para: "Lorem ipsum text  dummy",
         logo: javascript,
       },
-   
+
       {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
@@ -88,7 +83,6 @@ export const content = {
         logo: html,
       },
 
-      
       {
         name: "Css",
         para: "Css",
@@ -106,13 +100,6 @@ export const content = {
         para: "Lorem ipsum text  dummy",
         logo: github,
       },
-
-   
-
-     
-
-
-
     ],
     icon: MdArrowForward,
   },
@@ -169,7 +156,7 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    image1: ImageSamir,
+    image1: imageSamir,
     para: "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },
