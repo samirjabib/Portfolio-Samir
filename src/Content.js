@@ -1,5 +1,5 @@
 // import images
-import Pokemon from "./assets/hero/pokemon.png"
+import ImageSamir from "./assets/hero/pokemon.png"
 
 import html from "./assets/Skills/html.png";
 import css from "./assets/Skills/css.png";
@@ -54,7 +54,7 @@ export const content = {
     firstName: "SAMIR",
     LastName: "JABIB",
     btnText: "Hire Me",
-    image: Pokemon,
+    image: ImageSamir,
     hero_content: [
       {
         count: "1+",
@@ -169,7 +169,7 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    image1: Pokemon,
+    image1: ImageSamir,
     para: "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },
