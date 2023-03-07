@@ -6,9 +6,7 @@ import nodejs from "./assets/Skills/node.png";
 import github from "./assets/Skills/github.png";
 import imageSamir from "./assets/Hero/image-samir.png";
 
-import project1 from "./assets/projects/img1.png";
-import project2 from "./assets/projects/img2.png";
-import project3 from "./assets/projects/img3.png";
+
 import person_project from "./assets/projects/person.png";
 
 import avatar1 from "./assets/Testimonials/avatar1.png";
@@ -109,18 +107,7 @@ export const content = {
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
-      {
-        title: "Gym Website",
-        image: project1,
-      },
-      {
-        title: "Social Media web",
-        image: project2,
-      },
-      {
-        title: "Creative Website",
-        image: project3,
-      },
+
     ],
   },
   Testimonials: {
