@@ -7,7 +7,7 @@ import github from "./assets/Skills/github.png";
 import imageSamir from "./assets/Hero/image-samir.png";
 
 
-import person_project from "./assets/projects/person.png";
+// import person_project from "./assets/projects/person.png";
 
 import avatar1 from "./assets/Testimonials/avatar1.png";
 import avatar2 from "./assets/Testimonials/avatar2.png";
@@ -105,7 +105,7 @@ export const content = {
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
-    image: person_project,
+    // image: person_project,
     project_content: [
 
     ],
